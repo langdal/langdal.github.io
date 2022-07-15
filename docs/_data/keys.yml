@@ -1,15 +1,28 @@
 - name: Private
   gpg:
+    enabled: true
     idlong: AE6C6683DF113357
     idshort: DF113357
     link: /assets/gpg/langdal.asc
   ssh:
+    enabled: true
     pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEW4gvVAEJfqoYkU1PxZcXXDO471IMselJmv3K0mqiU+ openpgp:0x3C5C8B7D
 
 - name: Work
   gpg:
+    enabled: true
     idshort: 6573E13A
     idlong: 1DD59BA76573E13A
     link: /assets/gpg/alexandra.asc
   ssh:
+    enabled: true
     pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJOOvIgnSY1bt2QKdprxyt825c/lZAPGY8QROde1rUZ1 openpgp:0x64FAE098
+
+- name: Archive
+  gpg:
+    enabled: true
+    idshort: 5FDF88A8
+    idlong: 5927AE025FDF88A8
+    link: /assets/gpg/archive.asc
+  ssh:
+    enabled: false
