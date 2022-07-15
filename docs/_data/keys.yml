@@ -3,6 +3,7 @@
     enabled: true
     idlong: AE6C6683DF113357
     idshort: DF113357
+    fingerprint: 6DB1 15F2 C3F7 3264 C094  0D71 AE6C 6683 DF11 3357
     link: /assets/gpg/langdal.asc
   ssh:
     enabled: true
@@ -13,6 +14,7 @@
     enabled: true
     idshort: 6573E13A
     idlong: 1DD59BA76573E13A
+    fingerprint: 9753 C354 46BC DF3D 5E61  C833 1DD5 9BA7 6573 E13A
     link: /assets/gpg/alexandra.asc
   ssh:
     enabled: true
@@ -23,6 +25,7 @@
     enabled: true
     idshort: 5FDF88A8
     idlong: 5927AE025FDF88A8
+    fingerprint: 0BE0 C3A2 78C4 E554 E713  3C51 5927 AE02 5FDF 88A8
     link: /assets/gpg/archive.asc
   ssh:
     enabled: false

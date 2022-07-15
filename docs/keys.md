@@ -9,7 +9,7 @@ layout: default
 
 ### {{ key.name }}
 {% if key.gpg.enabled %}
-- Public GPG key [[{{key.gpg.idlong}}]]({{key.gpg.link}})
+- Public GPG key [[{{key.gpg.idlong}}]]({{key.gpg.link}}) {{key.gpg.fingerprint}}
 {% endif %}
 {% if key.ssh.enabled %}
 - Public SSH key
