@@ -7,7 +7,7 @@
     link: /assets/gpg/langdal.asc
   ssh:
     enabled: true
-    pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEW4gvVAEJfqoYkU1PxZcXXDO471IMselJmv3K0mqiU+ openpgp:0x3C5C8B7D
+    pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEW4gvVAEJfqoYkU1PxZcXXDO471IMselJmv3K0mqiU+ jakob.langdal@openpgp:0x3C5C8B7D
 
 - name: Work
   gpg:
@@ -18,7 +18,7 @@
     link: /assets/gpg/alexandra.asc
   ssh:
     enabled: true
-    pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJOOvIgnSY1bt2QKdprxyt825c/lZAPGY8QROde1rUZ1 openpgp:0x64FAE098
+    pubkey: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJOOvIgnSY1bt2QKdprxyt825c/lZAPGY8QROde1rUZ1 jakob.langdal@openpgp:0x64FAE098
 
 - name: Archive
   gpg:
